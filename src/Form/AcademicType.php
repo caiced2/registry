@@ -21,6 +21,7 @@ class AcademicType extends AbstractType
             ->add('study_place')
             ->add('Save', SubmitType::class)
 
+
         ;
     }
 

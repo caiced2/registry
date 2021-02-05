@@ -18,7 +18,7 @@ class ExperienceType extends AbstractType
             ->add('work_experience', TextareaType::class)
             ->add('start_date', DateType::class,['widget' => 'single_text'])
             ->add('final_date', DateType::class,['widget' => 'single_text'])
-            ->add('Save', SubmitType::class)
+            ->add('Saves', SubmitType::class)
 
         ;
     }
